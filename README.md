@@ -1,6 +1,7 @@
 # Alt-Az Autonomous Field De-Rotator Pipeline (v1.0.0)
 
 A lightweight, high-precision, **dependency-free** C++14 mathematical de-rotation engine designed to drive the **ZWO Camera Angle Adjuster (CAA)** over USB on Alt-Az telescope configurations (such as GoTo Dobs, Meade LX200 setups, or iOptron Alt-Az trackers).
+You can buy a new Camera Angle Adjuster here via my affiliate program: https://us.zwoastro.com/products/camera-angle-adjuster?ref=nuclearoption.
 
 ## 🌌 Hardware Independence Note
 Because this software computes all astronomical field trajectories **natively on your computer's CPU** using high-precision equatorial calculus (Hour Angle and Declination matrices), **it functions completely standalone without needing network telemetry from an ASIAIR, INDI, or ASCOM server.** 

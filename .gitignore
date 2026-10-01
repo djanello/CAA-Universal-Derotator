@@ -1,0 +1,14 @@
+# Block ZWO proprietary binaries from being uploaded to GitHub
+libCAA.a
+CAA_API.h
+
+# Block local tracking logs and configurations from cluttering commits
+rotator_config.conf
+session_rotation_manifest.csv
+*.ssf
+*.fits
+*.fit
+
+# Block compiled binaries
+rotator_pipeline
+
